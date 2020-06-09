@@ -1,3 +1,3 @@
-const a = 1;
+const div = document.querySelector('#app');
 
-console.log(a);
+div.innerText = 'Webpack dev server loaded!';
