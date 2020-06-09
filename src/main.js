@@ -1,3 +1,7 @@
-const div = document.querySelector('#app');
+import Vue from 'vue';
+import App from './App.vue';
 
-div.innerText = 'Webpack dev server loaded!';
+new Vue({
+  el: '#app',
+  render: (h) => h(App),
+});
